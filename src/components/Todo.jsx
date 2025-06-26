@@ -11,10 +11,13 @@ const Todo = () => {
     });
   };
 
+
+  
+
   return (
     <div className='bg-blue-600'>
       <h1 className='text-center text-3xl text-blue-950'>Welcome to Todo Page</h1>
-      <button className="bg-black p-2 " onClick={handleLogout}>Logout</button>
+      <button className="bg-black p-2 text-white " onClick={handleLogout}>Logout</button>
     </div>
   );
 };
